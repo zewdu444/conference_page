@@ -10,24 +10,45 @@
   <body>
     <header>
       <nav>
-         
         <button class="barbutton">
-          <i class=" fa-sharp fa-solid fa-bars fa-2xl"></i>
+          <i class="fa-sharp fa-solid fa-bars fa-2xl"></i>
         </button>
-        <ul hidden>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#program">Program</a></li>
-          <li><a href="#speaker">Speaker</a></li>
-          <li><a href="#sponsor">Sponsor</a></li>
-          <li><a href="#News">News</a></li>
-          <li><a href="#AIevent">AIevent</a></li>
+        <ul class="linkto" hidden>
+          <li>
+            <a href="github"><i class="fa-brands fa-github"></i></a>
+          </li>
+          <li>
+            <a href="twitter"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li><a href="language">English</a></li>
+          <li><a href="Mypage">My Page</a></li>
+          <li><a href="login">Logout</a></li>
         </ul>
+        <div class="navwrapper" hidden>
+          <a href="index.html" class="logolink"
+            ><img
+              class="headerlogo"
+              src="./images/ailogo.png"
+              alt="Africa AI conference"
+          /></a>
+          <ul class="navlist" hidden>
+            <li class="about"><a href="about.html">About</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#speaker">Speaker</a></li>
+            <li><a href="#sponsor">Sponsor</a></li>
+            <li><a href="#News">News</a></li>
+            <li class="aievent"><a href="#AIevent">AIevent</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main class="maincontainer">
-      <!-- event description  -->
+      <section class="eventsection">
+        <!-- event description  -->
         <h2 class="subtitle">Empowering Africa with AI</h2>
-        <h1 class="title"> AFRICAN CONFERENCE ON ARTIFICIAL INTELLIGENCE 2023</h1>
+        <h1 class="title">
+          AFRICAN CONFERENCE ON ARTIFICIAL INTELLIGENCE 2023
+        </h1>
         <p class="eventdetail">
           The African Conference on Artificial Intelligence is a hybrid event.
           This interactive event will engage discussions on #AI solutions in G I
@@ -35,180 +56,195 @@
           security, Trust worthy AI, and African related solutions.
         </p>
         <h2 class="eventdate">2023.01.09(MON)~13(FRI)</h2>
-        <p class="eventlocation">@Museum of Science and Technology,Addis Ababa</p>
+        <p class="eventlocation">
+          @Museum of Science and Technology,Addis Ababa
+        </p>
       </section>
       <!-- main program -->
       <section class="programs">
         <h2 class="mainprogram">Main Program</h2>
-        <hr class="outline">
+        <hr class="outline" />
         <div class="programposition">
-        <div>
-          <img src="./images/lecture.png" alt="speaker" />
-          <h3>Lecture</h3>
-          <p>
-            Listen to the speaker from various countries about the message of AI
-            sharing and opening
-          </p>
+          <div>
+            <img src="./images/lecture.png" alt="speaker" />
+            <h3>Lecture</h3>
+            <p>
+              Listen to the speaker from various countries about the message of
+              AI sharing and opening
+            </p>
+          </div>
+          <div>
+            <img src="./images/exhibition.png" alt="exibition" />
+            <h3>Exibition</h3>
+            <p>
+              In museums, commemorate various accomplishments of Africa's
+              artificial intelligence institution and company.
+            </p>
+          </div>
+          <div>
+            <img src="./images/forum.png" alt="Forum" />
+            <h3>Forum</h3>
+            <p>
+              Take the time to speak with professionals about a certain subject
+              and engage in discussions with them.
+            </p>
+          </div>
+          <div>
+            <img src="./images/workshop.png" alt="Workshop" />
+            <h3>Workshop</h3>
+            <p>
+              Demonstrate the utility of AI in various industries and engage in
+              detailed discussions.
+            </p>
+          </div>
+          <div>
+            <img src="./images/ignite.png" alt="AI ignite" />
+            <h3>AI connect</h3>
+            <p>
+              Get opportunities to network with and share experiences with
+              people from all over the world.
+            </p>
+          </div>
+          <button class="joinbutton" hidden>Join African AI summit 2023</button>
         </div>
-        <div>
-          <img src="./images/exhibition.png" alt="exibition" />
-          <h3>Exibition</h3>
-          <p>
-            In museums, commemorate various accomplishments of Africa's
-            artificial intelligence institution and company.
-          </p>
-        </div>
-        <div>
-          <img src="./images/forum.png" alt="Forum" />
-          <h3>Forum</h3>
-          <p>
-            Have the time to share your thoughts and opinions with experts for
-            each topic
-          </p>
-        </div>
-        <div>
-          <img src="./images/workshop.png" alt="Workshop" />
-          <h3>Workshop</h3>
-          <p>
-            Demonstrate the utility of AI in various industries and engage in
-            detailed discussions.
-          </p>
-        </div>
-        <div>
-          <img src="./images/ignite.png" alt="AI ignite" />
-          <h3>AI connect</h3>
-          <p>
-            Get opportunities to network with and share experiences with people
-            from all over the world.
-          </p>
-        </div>
-        <button class="joinbutton">Join African AI summit 2023</button>
-      </div>
-        
+        <a href="#" class="desktopprogram">SEE THE WHOLE PROGRAM</a>
       </section>
       <!--Featured speaker -->
       <section class="speaker">
         <!-- 1 -->
-         <h2 class="speakertitle">Featured Speakers</h2>
-         <hr class="outline">
+        <h2 class="speakertitle">Featured Speakers</h2>
+        <hr class="outline" />
         <div class="speakerposition">
-        <div>
-          <img src="./images/Abiy_Ahmed.jpeg" alt="abiy ahimed" />
           <div>
-          <h3>Abiy ahmed</h3>
-          <h4>Prime minister of Federal Democratic Republic of Ethiopia</h4>
-          <hr class="speakeroutline">
-          <p>
-            Ethiopia's current Prime Minister. He is a tech and AI enthusiast,
-            as well as a co-founder of the Ethiopian information security
-            administration.
-          </p>
-         </div>
-        </div>
-        <!-- 2 -->
-        <div>
-          <img src="./images/solomon_kassa.jpg" alt="solomon kassa" />
+            <img src="./images/Abiy_Ahmed.jpeg" alt="abiy ahimed" />
+            <div>
+              <h3>Abiy ahmed</h3>
+              <h4>Prime minister of Federal Democratic Republic of Ethiopia</h4>
+              <hr class="speakeroutline" />
+              <p>
+                Ethiopia's current Prime Minister. He is a tech and AI
+                enthusiast, as well as a co-founder of the Ethiopian information
+                security administration.
+              </p>
+            </div>
+          </div>
+          <!-- 2 -->
           <div>
-          <h3>Solomon Kassa</h3>
-          <h4>
-            Tech Manager, TV Personality | Founder, 1888EC | Author | Public
-            Speaker |
-          </h4>
-          <hr class="speakeroutline">
-          <p>
-            experienced in full Systems Development Life Cycle (SDLC), host of a
-            weekly dynamic science and technology TV show, and an author of a
-            science and technology book,
-          </p>
-        </div>
-        </div>
-        <!-- 3 -->
-        <div>
-          <img src="./images/getnet_asseffa.jpg" alt="Getnet Aseffa" />
+            <img src="./images/solomon_kassa.jpg" alt="solomon kassa" />
+            <div>
+              <h3>Solomon Kassa</h3>
+              <h4>
+                Tech Manager, TV Personality | Founder, 1888EC | Author | Public
+                Speaker |
+              </h4>
+              <hr class="speakeroutline" />
+              <p>
+                experienced in full Systems Development Life Cycle (SDLC), host
+                of a weekly dynamic science and technology TV show, and an
+                author of a science and technology book,
+              </p>
+            </div>
+          </div>
+          <!-- 3 -->
           <div>
-          <h3>Getnet Aseffa</h3>
-          <h4>Founder and CEO of iCog-Labs</h4>
-          <hr class="speakeroutline">
-          <p>
-            A computer scientist, a futurist, and a rational progressive who is
-            enthusiastic about making a breakthrough in the capability of AI
-            systems to think, learn and create and the use of cutting-edge
-            technology to help leapfrog Africa into the future.
-          </p>
-        </div>
-        </div>
-        <!-- 4 -->
-        <div>
-          <img src="./images/Joy_Buolamwini.jpg" alt="Dr. Joy Buolamwini" />
+            <img src="./images/getnet_asseffa.jpg" alt="Getnet Aseffa" />
+            <div>
+              <h3>Getnet Aseffa</h3>
+              <h4>Founder and CEO of iCog-Labs</h4>
+              <hr class="speakeroutline" />
+              <p>
+                A computer scientist, a futurist, and a rational progressive who
+                is enthusiastic about making a breakthrough in the capability of
+                AI systems to think, learn and create and the use of
+                cutting-edge technology to help leapfrog Africa into the future.
+              </p>
+            </div>
+          </div>
+          <!-- 4 -->
           <div>
-          <h3>Dr. Joy Buolamwini</h3>
-          <h4>Founder Algorithmic Justice League</h4>
-          <hr class="speakeroutline">
-          <p>
-            She founded the Algorithmic Justice League to create a world with
-            more equitable and accountable technology. Her MIT thesis
-            methodology uncovered large racial and gender bias in AI services
-            from companies like Microsoft, IBM, and Amazon. 
-          </p>
-        </div>
-        </div>
-        <!-- 5 -->
-        <div>
-          <img src="./images/Sabelo_Mhlambi.jpg" alt="Sabelo Mhlambi" />
+            <img src="./images/Joy_Buolamwini.jpg" alt="Dr. Joy Buolamwini" />
+            <div>
+              <h3>Dr. Joy Buolamwini</h3>
+              <h4>Founder Algorithmic Justice League</h4>
+              <hr class="speakeroutline" />
+              <p>
+                She founded the Algorithmic Justice League to create a world
+                with more equitable and accountable technology. Her MIT thesis
+                methodology uncovered large racial and gender bias in AI
+                services from companies like Microsoft, IBM, and Amazon.
+              </p>
+            </div>
+          </div>
+          <!-- 5 -->
           <div>
-          <h3>Sabelo Mhlambi</h3>
-          <h4>
-            NLP Machine Learning Engineer + AI-Ethics & Human Rights Researcher
-          </h4>
-          <hr class="speakeroutline">
-          <p>
-            computer scientist, researcher and Fellow at Harvard’s Berkman Klein
-            Center for Internet & Society and a Technology and Human Rights
-            Fellow Carr Center for Human Rights Policy, focused on the ethical
-            implications of technology in the developing world.
-          </p>
-        </div>
-        </div>
-        <!-- 6 -->
-        <div>
-          <img src="./images/Prof.Tommie_Meyer.jpg" alt="Prof.Tommie Meyer" />
+            <img src="./images/Sabelo_Mhlambi.jpg" alt="Sabelo Mhlambi" />
+            <div>
+              <h3>Sabelo Mhlambi</h3>
+              <h4>
+                NLP Machine Learning Engineer + AI-Ethics & Human Rights
+                Researcher
+              </h4>
+              <hr class="speakeroutline" />
+              <p>
+                computer scientist, researcher and Fellow at Harvard’s Berkman
+                Klein Center for Internet & Society and a Technology and Human
+                Rights Fellow Carr Center for Human Rights Policy, focused on
+                the ethical implications of technology in the developing world.
+              </p>
+            </div>
+          </div>
+          <!-- 6 -->
           <div>
-          <h3>Prof.Tommie Meyer</h3>
-          <h4>
-            Professor in Computer Science and Co-Director: Centre for Artificial
-            Intelligence Research
-          </h4>
-          <hr class="speakeroutline">
-          <p>
-            professor in Computer Science at the University of Cape Town (UCT)
-            and Co-Director of the national Centre for Artificial Intelligence
-            Research (CAIR). also, the leader of the Knowledge Representation
-            and Reasoning group at UCT, as well as the Director of the
-            Artificial Intelligence Research Unit (AIRU) – CAIR UCT node.
-          </p>
+            <img src="./images/Prof.Tommie_Meyer.jpg" alt="Prof.Tommie Meyer" />
+            <div>
+              <h3>Prof.Tommie Meyer</h3>
+              <h4>
+                Professor in Computer Science and Co-Director: Centre for
+                Artificial Intelligence Research
+              </h4>
+              <hr class="speakeroutline" />
+              <p>
+                professor in Computer Science at the University of Cape Town
+                (UCT) and Co-Director of the national Centre for Artificial
+                Intelligence Research (CAIR). also, the leader of the Knowledge
+                Representation and Reasoning group at UCT, as well as the
+                Director of the Artificial Intelligence Research Unit (AIRU) –
+                CAIR UCT node.
+              </p>
+            </div>
+          </div>
+          <div>
+            <button class="speakerbutton">
+              MORE <i class="fa-solid fa-angle-down"></i>
+            </button>
+          </div>
         </div>
-        </div>
-        <div>
-        <button class="speakerbutton">MORE <i class="fa-solid fa-angle-down"></i></button>
-      </div>
-      </div>
-         
       </section>
       <!-- sponsor -->
       <section class="sponsor">
         <h2>Partner</h2>
-         <hr class="partneroutline">
+        <hr class="partneroutline" />
         <div class="sponsorimg">
-          <img src="./images/Addis_Ababa_University_logo.png" alt="addis ababa university">
-          <img src="./images/EthiopianAI.png" alt="Ethiopian Artificial Intelligence Institute">
-          <img src="./images/Presight_AI.png" alt="Presight AI">
-          <img src="./images/Hawk university.png" alt="Hawk university">
-          <img src="./images/IcogLab.png" alt="IcogLab">
-       </div>
+          <img
+            src="./images/Addis_Ababa_University_logo.png"
+            alt="addis ababa university"
+          />
+          <img
+            src="./images/EthiopianAI.png"
+            alt="Ethiopian Artificial Intelligence Institute"
+          />
+          <img src="./images/Presight_AI.png" alt="Presight AI" />
+          <img src="./images/Hawk university.png" alt="Hawk university" />
+          <img src="./images/IcogLab.png" alt="IcogLab" />
+        </div>
       </section>
     </main>
     <footer>
-      <img class="imglogo" src="./images/ailogo.png" alt="afirca AI summit 2023 logo" />
+      <img
+        class="imglogo"
+        src="./images/ailogo.png"
+        alt="afirca AI summit 2023 logo"
+      />
       <p class="footerdetail">2023 Africa AI Conference.All rights reserved.</p>
     </footer>
     <script
