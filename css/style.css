@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  background-color: #f8f8f8;
+  background-color: #f7f7f7;
   border: 1px solid black;
   color: #5d5d5d;
 }
@@ -293,4 +293,132 @@ footer {
   margin-bottom: 0;
   padding-bottom: 0;
   font-size: 1rem;
+}
+
+/* about page starts here */
+.abouteventdetail {
+  margin-top: 1.5625rem;
+  border: 1px solid #cfcfcf;
+  padding: 1.5625rem;
+  font-size: 1rem;
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.aboutemailus {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.aboutcontact {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #5d5d5d;
+  font-weight: 600;
+  margin-bottom: 4.375rem;
+}
+
+.aboutlodgodetail {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-right: -1.25rem;
+  margin-left: -1.25rem;
+  align-items: center;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.875rem;
+}
+
+.aboutlodgodetail > h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.logomobiledetial {
+  text-align: center;
+  max-width: 28.125rem;
+}
+
+.logoimg {
+  padding: 1.25rem 2.8125rem;
+  width: 75%;
+  max-height: 8.125rem;
+  border: 1px solid #cfcfcf;
+  margin-bottom: 0.625rem;
+}
+
+.aboutprevious {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 3.125rem;
+  padding-bottom: 2.5rem;
+  margin: 0.3125rem -1.25rem -1.5625rem;
+}
+
+.previoustitle {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.previousdetail {
+  margin-top: 0;
+  font-size: 1rem;
+  padding-left: 3.125rem;
+  padding-right: 3.125rem;
+}
+
+.previousposition {
+  display: flex;
+  flex-direction: column;
+}
+
+.previousimg {
+  display: block;
+  width: 100%;
+  opacity: 0.4;
+}
+
+.previouscontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 0.9375rem;
+}
+
+.previousyear {
+  position: absolute;
+  font-size: 1.6rem;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 2.5rem;
+}
+
+.prevoiusdetail {
+  position: absolute;
+  font-size: 1rem;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imagewrapper {
+  position: relative;
+  background-color: #ec5242;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.previousimg:hover {
+  opacity: 1;
 }
