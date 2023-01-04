@@ -135,107 +135,22 @@
         <h2 class="speakertitle">Featured Speakers</h2>
         <hr class="outline" />
         <div class="speakerposition">
-          <div>
-            <img src="./images/Abiy_Ahmed.jpeg" alt="abiy ahimed" />
+          <!-- all cards generated and populate data using javascript  -->
+          <div class="speakercard">
+            <img class="speakerpicture" />
             <div>
-              <h3>Abiy ahmed</h3>
-              <h4>Prime minister of Federal Democratic Republic of Ethiopia</h4>
+              <h3 class="speakername"></h3>
+              <h4 class="speakertitledetail"></h4>
               <hr class="speakeroutline" />
-              <p>
-                Ethiopia's current Prime Minister. He is a tech and AI
-                enthusiast, as well as a co-founder of the Ethiopian information
-                security administration.
-              </p>
-            </div>
-          </div>
-          <!-- 2 -->
-          <div>
-            <img src="./images/solomon_kassa.jpg" alt="solomon kassa" />
-            <div>
-              <h3>Solomon Kassa</h3>
-              <h4>
-                Tech Manager, TV Personality | Founder, 1888EC | Author | Public
-                Speaker |
-              </h4>
-              <hr class="speakeroutline" />
-              <p>
-                experienced in full Systems Development Life Cycle (SDLC), host
-                of a weekly dynamic science and technology TV show, and an
-                author of a science and technology book,
-              </p>
-            </div>
-          </div>
-          <!-- 3 -->
-          <div>
-            <img src="./images/getnet_asseffa.jpg" alt="Getnet Aseffa" />
-            <div>
-              <h3>Getnet Aseffa</h3>
-              <h4>Founder and CEO of iCog-Labs</h4>
-              <hr class="speakeroutline" />
-              <p>
-                A computer scientist, a futurist, and a rational progressive who
-                is enthusiastic about making a breakthrough in the capability of
-                AI systems to think, learn and create and the use of
-                cutting-edge technology to help leapfrog Africa into the future.
-              </p>
-            </div>
-          </div>
-          <!-- 4 -->
-          <div>
-            <img src="./images/Joy_Buolamwini.jpg" alt="Dr. Joy Buolamwini" />
-            <div>
-              <h3>Dr. Joy Buolamwini</h3>
-              <h4>Founder Algorithmic Justice League</h4>
-              <hr class="speakeroutline" />
-              <p>
-                She founded the Algorithmic Justice League to create a world
-                with more equitable and accountable technology. Her MIT thesis
-                methodology uncovered large racial and gender bias in AI
-                services from companies like Microsoft, IBM, and Amazon.
-              </p>
-            </div>
-          </div>
-          <!-- 5 -->
-          <div>
-            <img src="./images/Sabelo_Mhlambi.jpg" alt="Sabelo Mhlambi" />
-            <div>
-              <h3>Sabelo Mhlambi</h3>
-              <h4>
-                NLP Machine Learning Engineer + AI-Ethics & Human Rights
-                Researcher
-              </h4>
-              <hr class="speakeroutline" />
-              <p>
-                computer scientist, researcher and Fellow at Harvard’s Berkman
-                Klein Center for Internet & Society and a Technology and Human
-                Rights Fellow Carr Center for Human Rights Policy, focused on
-                the ethical implications of technology in the developing world.
-              </p>
-            </div>
-          </div>
-          <!-- 6 -->
-          <div>
-            <img src="./images/Prof.Tommie_Meyer.jpg" alt="Prof.Tommie Meyer" />
-            <div>
-              <h3>Prof.Tommie Meyer</h3>
-              <h4>
-                Professor in Computer Science and Co-Director: Centre for
-                Artificial Intelligence Research
-              </h4>
-              <hr class="speakeroutline" />
-              <p>
-                professor in Computer Science at the University of Cape Town
-                (UCT) and Co-Director of the national Centre for Artificial
-                Intelligence Research (CAIR). also, the leader of the Knowledge
-                Representation and Reasoning group at UCT, as well as the
-                Director of the Artificial Intelligence Research Unit (AIRU) –
-                CAIR UCT node.
-              </p>
+              <p class="speakerexperience"></p>
             </div>
           </div>
           <div>
-            <button class="speakerbutton">
+            <button class="speakerbutton" id="morebutton">
               MORE <i class="fa-solid fa-angle-down"></i>
+            </button>
+            <button class="speakerbutton" id="lessbutton" hidden>
+              LESS <i class="fa-solid fa-angle-up"></i>
             </button>
           </div>
         </div>
