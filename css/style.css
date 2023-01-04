@@ -1,9 +1,5 @@
 /* specify font type */
-@font-face {
-  font-family: Lato;
-  src: url("../fonts/lato_regular.woff");
-  font-weight: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 body {
   font-family: Lato, Arial, Helvetica, sans-serif;
@@ -13,6 +9,9 @@ body {
   flex-wrap: wrap;
   background-color: #f7f7f7;
   color: #5d5d5d;
+  background-image: url("../images/homebg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 /* spacing button */
@@ -30,7 +29,7 @@ body {
 
 /* spacing maincontainer */
 .maincontainer {
-  margin-top: 1.875rem;
+  margin-top: 30px;
   margin-left: 1.25rem;
   padding-right: 1.25rem;
   display: flex;
@@ -132,6 +131,7 @@ body {
 }
 
 .joinbutton {
+  display: block;
   background-color: #ff4f38;
   color: white;
   border: none;
@@ -183,6 +183,10 @@ body {
   width: 95%;
 }
 
+.programposition > div:hover {
+  border: 3px solid #cdcfcf;
+}
+
 .speakerposition > div > img {
   display: flex;
   width: 30%;
@@ -190,6 +194,20 @@ body {
   align-self: center;
   margin-right: 0.9375rem;
   border-radius: 50%;
+}
+
+.sponsor > .sponsorimg > img {
+  width: 25%;
+  margin-left: 0.625rem;
+  margin-bottom: 0.9375rem;
+}
+
+.speakerposition > div > img:hover {
+  border: 3px dotted #f28579;
+}
+
+.sponsor > .sponsorimg > img:hover {
+  width: 26%;
 }
 
 .speakerposition > div > div > h3 {
@@ -265,12 +283,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.sponsor > .sponsorimg > img {
-  width: 25%;
-  margin-left: 0.625rem;
-  margin-bottom: 0.9375rem;
 }
 
 footer {
@@ -475,6 +487,10 @@ footer {
 
 .popnavlist > li > a:hover {
   text-decoration: underline;
+}
+
+button:hover {
+  opacity: 0.6;
 }
 
 /* container desktop version applied 768px and above */
@@ -705,6 +721,10 @@ footer {
     width: 15%;
   }
 
+  .sponsor > .sponsorimg > img:hover {
+    width: 16%;
+  }
+
   .imglogo {
     width: 50%;
     height: 110%;
@@ -822,5 +842,9 @@ footer {
 
   .homesponsor {
     display: block;
+  }
+
+  .joinbutton {
+    display: none;
   }
 }
