@@ -434,6 +434,49 @@ footer {
   display: none;
 }
 
+/* popup menu option */
+.popupmenu {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  width: 100%;
+  background-color: #272a31;
+  height: 110%;
+  opacity: 0.96;
+  top: 0;
+  padding: 1.25rem;
+}
+
+.closebutton {
+  border: none;
+  display: flex;
+  background-color: transparent;
+  margin-left: auto;
+  padding-right: 3.125rem;
+  color: #cdcfcf;
+  font-size: 1.875rem;
+  padding-top: 1.25rem;
+}
+
+.popnavlist {
+  list-style: none;
+  padding-top: 1.5625rem;
+}
+
+.popnavlist > li {
+  padding-bottom: 1.25rem;
+}
+
+.popnavlist > li > a {
+  color: #cdcfcf;
+  font-size: 1.875rem;
+  text-decoration: none;
+}
+
+.popnavlist > li > a:hover {
+  text-decoration: underline;
+}
+
 /* container desktop version applied 768px and above */
 @media screen and (min-width: 768px) {
   body {

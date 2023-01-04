@@ -10,19 +10,23 @@
   <body>
     <header>
       <nav>
-        <button class="barbutton">
-          <i class="fa-sharp fa-solid fa-bars fa-2xl"></i>
+        <button class="barbutton" id="barbutton">
+          <i class="fa-sharp fa-solid fa-bars fa-2xl" id></i>
         </button>
         <ul class="linkto" hidden>
           <li>
-            <a href="github"><i class="fa-brands fa-github"></i></a>
+            <a href="https://github.com/zewdu444/" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
           </li>
           <li>
-            <a href="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://twitter.com/zewdu444" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
           </li>
-          <li><a href="language">English</a></li>
-          <li><a href="Mypage">My Page</a></li>
-          <li><a href="login">Logout</a></li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
         </ul>
         <div class="navwrapper" hidden>
           <a href="index.html" class="logolink"
@@ -33,11 +37,27 @@
           /></a>
           <ul class="navlist" hidden>
             <li class="about"><a href="about.html">About</a></li>
-            <li><a href="#program">Program</a></li>
-            <li><a href="#speaker">Speaker</a></li>
-            <li><a href="#sponsor">Sponsor</a></li>
-            <li><a href="#News">News</a></li>
-            <li class="aievent"><a href="#AIevent">AIevent</a></li>
+            <li><a href="#programs">Program</a></li>
+            <li><a href="#speakers">Speaker</a></li>
+            <li><a href="#partners">Sponsor</a></li>
+            <li><a href="index.html">News</a></li>
+            <li class="aievent"><a href="index.html">AIevent</a></li>
+          </ul>
+        </div>
+
+        <!-- mobile popup menu -->
+        <div class="popupmenu" id="mobileoption" hidden>
+          <button class="closebutton" id="closebutton">
+            <i class="fa-2xl fa-solid fa-xmark"></i>
+          </button>
+          <ul class="popnavlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#programs">Program</a></li>
+            <li><a href="#speakers">Speaker</a></li>
+            <li><a href="about.html#partners">Sponsor</a></li>
+            <li><a href="index.html">News</a></li>
+            <li><a href="index.html">AIevent</a></li>
           </ul>
         </div>
       </nav>
@@ -61,7 +81,7 @@
         </p>
       </section>
       <!-- main program -->
-      <section class="programs">
+      <section class="programs" id="programs">
         <h2 class="mainprogram">Main Program</h2>
         <hr class="outline" />
         <div class="programposition">
@@ -110,7 +130,7 @@
         <a href="#" class="desktopprogram">SEE THE WHOLE PROGRAM</a>
       </section>
       <!--Featured speaker -->
-      <section class="speaker">
+      <section class="speaker" id="speakers">
         <!-- 1 -->
         <h2 class="speakertitle">Featured Speakers</h2>
         <hr class="outline" />
@@ -221,7 +241,7 @@
         </div>
       </section>
       <!-- sponsor -->
-      <section class="sponsor homesponsor">
+      <section class="sponsor homesponsor" id="partners">
         <h2>Partner</h2>
         <hr class="partneroutline" />
         <div class="sponsorimg">
