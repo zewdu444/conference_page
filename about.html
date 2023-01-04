@@ -13,21 +13,40 @@
         <button class="barbutton">
           <i class="fa-sharp fa-solid fa-bars fa-2xl"></i>
         </button>
-        <ul hidden>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#program">Program</a></li>
-          <li><a href="#speaker">Speaker</a></li>
-          <li><a href="#sponsor">Sponsor</a></li>
-          <li><a href="#News">News</a></li>
-          <li><a href="#AIevent">AIevent</a></li>
+        <ul class="linkto" hidden>
+          <li>
+            <a href="github"><i class="fa-brands fa-github"></i></a>
+          </li>
+          <li>
+            <a href="twitter"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li><a href="language">English</a></li>
+          <li><a href="Mypage">My Page</a></li>
+          <li><a href="login">Logout</a></li>
         </ul>
+        <div class="navwrapper" hidden>
+          <a href="index.html" class="logolink"
+            ><img
+              class="headerlogo"
+              src="./images/ailogo.png"
+              alt="Africa AI conference"
+          /></a>
+          <ul class="navlist" hidden>
+            <li class="about"><a href="about.html">About</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#speaker">Speaker</a></li>
+            <li><a href="#sponsor">Sponsor</a></li>
+            <li><a href="#News">News</a></li>
+            <li class="aievent"><a href="#AIevent">AIevent</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main class="maincontainer">
       <!-- event description  -->
       <section>
-        <h2 class="subtitle">Empowering Africa with AI</h2>
-        <h1 class="title">
+        <h2 class="subtitle aboutsubtitle">Empowering Africa with AI</h2>
+        <h1 class="title abouttitle">
           AFRICAN CONFERENCE ON ARTIFICIAL INTELLIGENCE 2023
         </h1>
         <p class="abouteventdetail">
@@ -104,7 +123,7 @@
         </div>
       </section>
       <!-- sponsor -->
-      <section class="sponsor">
+      <section class="sponsor aboutsponsor">
         <h2>Partner</h2>
         <hr class="partneroutline" />
         <div class="sponsorimg">
@@ -122,13 +141,15 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="aboutfooter">
       <img
-        class="imglogo"
+        class="imglogo footerlogo"
         src="./images/ailogo.png"
         alt="afirca AI summit 2023 logo"
       />
-      <p class="footerdetail">2023 Africa AI Conference.All rights reserved.</p>
+      <p class="footerdetail aboutfooterdetail">
+        2023 Africa AI Conference.All rights reserved.
+      </p>
     </footer>
     <script
       src="https://kit.fontawesome.com/d84b16ecd0.js"
