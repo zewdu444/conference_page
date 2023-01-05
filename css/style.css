@@ -493,6 +493,10 @@ button:hover {
   opacity: 0.6;
 }
 
+.homefooter {
+  display: none;
+}
+
 /* container desktop version applied 768px and above */
 @media screen and (min-width: 768px) {
   body {
@@ -692,7 +696,6 @@ button:hover {
   }
 
   .speakerposition > div > img {
-    border: 50%;
     height: 80%;
     width: 35%;
   }
@@ -735,6 +738,7 @@ button:hover {
   }
 
   .homefooter {
+    display: block;
     padding-top: 1.875rem;
     padding-bottom: 1.875rem;
   }
