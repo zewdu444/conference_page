@@ -33,6 +33,7 @@ After you're finished please remove all the comments and instructions!
 
 - [📖 About the Project](#about-project)
   - [:camera: project screenshot](#screen-shoot)
+  - [:movie_camera: project video ](#loom-video)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -50,25 +51,39 @@ After you're finished please remove all the comments and instructions!
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
+<div align='center'>
+<img src ="./images/ailogo.png" width='50%' height='30%'>
+</div>
 
 # 📖 Africa Conference on AI 2023 page <a name="about-project"></a>
 
-> This conference page is part of the Microverse capstone project in portable module, which showed about the African artificial intelligence summit, which was held in Addis Abeba in January 2023. It was primarily built in pure HTML, CSS, and JavaScript, and it adhered to all best practices. as well as a mobile-first approach
+> This conference page is part of the Microverse capstone project in portal module, which showed about the African artificial intelligence summit, which was held in Addis Abeba in January 2023. It was primarily built in pure HTML, CSS, and JavaScript, and it adhered to all best practices. as well as a mobile-first approach
 
 ## :camera: Project screenshots <a name="screen-shoot"></a>
 
-<h5>Desktop version</h5>
-<img src ="./images/desktop_screen.png" width='100%'>
-<h5>Mobile version</h5>
-<hr> <img src ="./images/mobile_screen.png" width='100%'>
+#### :computer: Desktop version
+
+<img src ="./images/desktop_screenshot.png" width='100%'>
+
+#### :iphone: Mobile version
+
+<hr> <img src ="./images/mobile_screenshot.png" width='100%'>
+
+## :movie_camera: Video link <a name="loom-video"></a>
+
+> To view a loom video, click the link below.
+
+- [Live Demo Link](https://www.loom.com/share/19d08633dd0343aa8738af9cd840c6d7)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🛠 Built With <a name="built-with">
 
-HTML5 and CSS in addition it used figma ui template</a>
+HTML5, Pure CSS and Javascript in addition it used Cindy shin CC Global submit templete as guide line.</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML 5 , CSS flex box and CSS grid and javascript for dynamic loading contents
+> HTML 5 , CSS flex box and CSS grid, javascript DOM and Javascript objecsts for dynamic loading contents.
 
 <!-- Features -->
 
@@ -76,14 +91,13 @@ HTML5 and CSS in addition it used figma ui template</a>
 
 >
 
-- mobile first approach
-- flex box
-- interactive button
+- Mobile first approach
+- CSS Flex box
+- Interactive button
 - CSS grid
-- CSS Animation
 - Javascript menu option
-- Popup windows for mobile and desktop page
-- Form Validation
+- Javascript DOM manipultion
+- Objects and Array for data storage
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
 
@@ -91,7 +105,7 @@ HTML5 and CSS in addition it used figma ui template</a>
 
 > To view a live demo, click the link below.
 
-- [Live Demo Link](https://zewdu444.github.io/personal_portfolio/index.html)
+- [Live Demo Link](https://zewdu444.github.io/conference_page/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,12 +113,12 @@ HTML5 and CSS in addition it used figma ui template</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> to run on your localhost just copy the whole project and open index.html in your browser.
+> To run on your localhost just copy the whole project and open index.html in your browser.
 
 ### Setup
 
-> <p> git clone https://github.com/zewdu444/personal_portfolio.git </p>
-> cd personal_portfolio
+> <p> git clone https://github.com/zewdu444/conference_page.git </p>
+> cd conference_page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,13 +154,13 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Preserve data in the browser
+> News and AIevent page will be added
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/zewdu444/personal_portfolio/issues).
+Feel free to check the [issues page](https://github.com/zewdu444/conference_page/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- SUPPORT -->
@@ -162,6 +176,7 @@ Feel free to check the [issues page](https://github.com/zewdu444/personal_portfo
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I'd like to express my gratitude to the Microverse team.
+> High regard for Cindy Shin's <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">"CC Global Summit 2015"</a> templete.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

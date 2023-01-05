@@ -8,7 +8,191 @@
     <title>Africa AI summit 2023</title>
   </head>
   <body>
-    <main></main>
+    <header>
+      <nav>
+        <button class="barbutton" id="barbutton">
+          <i class="fa-sharp fa-solid fa-bars fa-2xl" id></i>
+        </button>
+        <ul class="linkto" hidden>
+          <li>
+            <a href="https://github.com/zewdu444/" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/zewdu444" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+        <div class="navwrapper" hidden>
+          <a href="index.html" class="logolink"
+            ><img
+              class="headerlogo"
+              src="./images/ailogo.png"
+              alt="Africa AI conference"
+          /></a>
+          <ul class="navlist" hidden>
+            <li class="about"><a href="about.html">About</a></li>
+            <li><a href="#programs">Program</a></li>
+            <li><a href="#speakers">Speaker</a></li>
+            <li><a href="#partners">Sponsor</a></li>
+            <li><a href="index.html">News</a></li>
+            <li class="aievent"><a href="index.html">AIevent</a></li>
+          </ul>
+        </div>
+
+        <!-- mobile popup menu -->
+        <div class="popupmenu" id="mobileoption" hidden>
+          <button class="closebutton" id="closebutton">
+            <i class="fa-2xl fa-solid fa-xmark"></i>
+          </button>
+          <ul class="popnavlist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#programs">Program</a></li>
+            <li><a href="#speakers">Speaker</a></li>
+            <li><a href="about.html#partners">Sponsor</a></li>
+            <li><a href="index.html">News</a></li>
+            <li><a href="index.html">AIevent</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="maincontainer">
+      <section class="eventsection">
+        <!-- event description  -->
+        <h1 class="subtitle">Empowering Africa with AI</h1>
+        <h2 class="title">
+          AFRICAN CONFERENCE ON ARTIFICIAL INTELLIGENCE 2023
+        </h2>
+        <p class="eventdetail">
+          The African Conference on Artificial Intelligence is a hybrid event.
+          This interactive event will engage discussions on #AI solutions in G I
+          S, Public Health, Agriculture, Public Services, Robotics, Cyber
+          security, Trust worthy AI, and African related solutions.
+        </p>
+        <h2 class="eventdate">2023.01.09(MON)~13(FRI)</h2>
+        <p class="eventlocation">
+          @Museum of Science and Technology,Addis Ababa
+        </p>
+      </section>
+      <!-- main program -->
+      <section class="programs" id="programs">
+        <h2 class="mainprogram">Main Program</h2>
+        <hr class="outline" />
+        <div class="programposition">
+          <div>
+            <img src="./images/lecture.png" alt="speaker" />
+            <h3>Lecture</h3>
+            <p>
+              Listen to the speaker from various countries about the message of
+              AI sharing and opening
+            </p>
+          </div>
+          <div>
+            <img src="./images/exhibition.png" alt="exibition" />
+            <h3>Exibition</h3>
+            <p>
+              In museums, commemorate various accomplishments of Africa's
+              artificial intelligence institution and company.
+            </p>
+          </div>
+          <div>
+            <img src="./images/forum.png" alt="Forum" />
+            <h3>Forum</h3>
+            <p>
+              Take the time to speak with professionals about a certain subject
+              and engage in discussions with them.
+            </p>
+          </div>
+          <div>
+            <img src="./images/workshop.png" alt="Workshop" />
+            <h3>Workshop</h3>
+            <p>
+              Demonstrate the utility of AI in various industries and engage in
+              detailed discussions.
+            </p>
+          </div>
+          <div>
+            <img src="./images/ignite.png" alt="AI ignite" />
+            <h3>AI connect</h3>
+            <p>
+              Get opportunities to network with and share experiences with
+              people from all over the world.
+            </p>
+          </div>
+          <button class="joinbutton" hidden>Join African AI summit 2023</button>
+        </div>
+        <a href="#" class="desktopprogram">SEE THE WHOLE PROGRAM</a>
+      </section>
+      <!--Featured speaker -->
+      <section class="speaker" id="speakers">
+        <!-- 1 -->
+        <h2 class="speakertitle">Featured Speakers</h2>
+        <hr class="outline" />
+        <div class="speakerposition">
+          <!-- all cards generated and populate data using javascript  -->
+          <div class="speakercard">
+            <img class="speakerpicture" />
+            <div>
+              <h3 class="speakername"></h3>
+              <h4 class="speakertitledetail"></h4>
+              <hr class="speakeroutline" />
+              <p class="speakerexperience"></p>
+            </div>
+          </div>
+          <div>
+            <button class="speakerbutton" id="morebutton">
+              MORE <i class="fa-solid fa-angle-down"></i>
+            </button>
+            <button class="speakerbutton" id="lessbutton" hidden>
+              LESS <i class="fa-solid fa-angle-up"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- sponsor -->
+      <section class="sponsor homesponsor" id="partners">
+        <h2>Partner</h2>
+        <hr class="partneroutline" />
+
+        <ul class="sponsorimg">
+          <li>
+            <img
+              src="./images/Addis_Ababa_University_logo.png"
+              alt="addis ababa university"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/EthiopianAI.png"
+              alt="Ethiopian Artificial Intelligence Institute"
+            />
+          </li>
+          <li>
+            <img src="./images/Presight_AI.png" alt="Presight AI" />
+          </li>
+          <li>
+            <img src="./images/Hawk university.png" alt="Hawk university" />
+          </li>
+          <li>
+            <img src="./images/IcogLab.png" alt="IcogLab" />
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="homefooter">
+      <img
+        class="imglogo"
+        src="./images/ailogo.png"
+        alt="afirca AI summit 2023 logo"
+      />
+      <p class="footerdetail">2023 Africa AI Conference.All rights reserved.</p>
+    </footer>
     <script
       src="https://kit.fontawesome.com/d84b16ecd0.js"
       crossorigin="anonymous"
