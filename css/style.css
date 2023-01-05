@@ -729,7 +729,7 @@ button:hover {
   }
 
   .imglogo {
-    width: 50%;
+    width: 40%;
     height: 110%;
   }
 
@@ -738,7 +738,8 @@ button:hover {
   }
 
   .homefooter {
-    display: block;
+    display: flex;
+    flex-direction: row;
     padding-top: 1.875rem;
     padding-bottom: 1.875rem;
   }
