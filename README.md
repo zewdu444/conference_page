@@ -73,7 +73,7 @@ After you're finished please remove all the comments and instructions!
 
 > To view a loom video, click the link below.
 
-- [Live Demo Link](https://zewdu444.github.io/conference_page/index.html)
+- [Live Demo Link](https://www.loom.com/share/19d08633dd0343aa8738af9cd840c6d7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +105,7 @@ HTML5, Pure CSS and Javascript in addition it used Cindy shin CC Global submit t
 
 > To view a live demo, click the link below.
 
-- [Live Demo Link](https://www.loom.com/share/19d08633dd0343aa8738af9cd840c6d7)
+- [Live Demo Link](https://zewdu444.github.io/conference_page/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
